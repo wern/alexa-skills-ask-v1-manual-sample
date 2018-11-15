@@ -1,0 +1,48 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "gruess gott hansel",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "Halt",
+                        "Ende"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "Was machst Du",
+                        "Wie gehst Du",
+                        "Wie funktioniert das"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "Stop",
+                        "Tschüss",
+                        "Danke Dir"
+                    ]
+                },
+                {
+                    "name": "HeyDuIntent",
+                    "slots": [
+                        {
+                            "name": "name",
+                            "type": "AMAZON.FirstName"
+                        }
+                    ],
+                    "samples": [
+                        "Ich bin es {name} ",
+                        "{name} hier",
+                        "Hier ist {name} ",
+                        "Ich bin's {name} "
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
